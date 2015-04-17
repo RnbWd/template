@@ -1,0 +1,34 @@
+{
+  "name": "{{name}}",
+  "description": "{{name}}",
+  "version": "0.0.1",
+  "author": {
+    "name": "David Wisner",
+    "email": "dwisner6@gmail.com",
+    "url": "http://{{org}}.com"
+  },
+  "bugs": {
+    "url": "https://github.com/{{org}}/{{name}}/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/{{org}}/{{name}}",
+  "keywords": [
+    "{{name}}",
+    "{{org}}"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/{{org}}/{{name}}.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
