@@ -16,8 +16,7 @@
   },
   "homepage": "https://github.com/{{org}}/{{name}}",
   "keywords": [
-    "{{name}}",
-    "{{org}}"
+    "{{name}}"
   ],
   "license": "MIT",
   "main": "index.js",
