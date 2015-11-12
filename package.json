@@ -1,33 +1,34 @@
 {
-  "name": "{{name}}",
-  "description": "{{name}}",
-  "version": "0.0.1",
-  "author": {
-    "name": "David Wisner",
-    "email": "dwisner6@gmail.com",
-    "url": "http://{{org}}.com"
-  },
-  "bugs": {
-    "url": "https://github.com/{{org}}/{{name}}/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "homepage": "https://github.com/{{org}}/{{name}}",
-  "keywords": [
-    "{{name}}"
-  ],
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "",
   "license": "MIT",
-  "main": "index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= website %>"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/{{org}}/{{name}}.git"
+  "engines": {
+    "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "xo": "^0.10.1"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
   }
 }
