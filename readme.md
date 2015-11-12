@@ -1,4 +1,4 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# {{name}} [![Build Status](https://travis-ci.org/{{name}} {{author}}/{{name}}.svg?branch=master)](https://travis-ci.org/{{name}} {{author}}/{{name}})
 
 >
 
@@ -6,23 +6,23 @@
 ## Install
 
 ```
-$ npm install --save <%= moduleName %>
+$ npm install --save {{name}}
 ```
 
 
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+const {{name}} = require('{{name}}');
 
-<%= camelModuleName %>('unicorns');
+{{name}}('unicorns');
 //=> 'unicorns & rainbows'
 ```
 
 
 ## API
 
-### <%= camelModuleName %>(input, [options])
+### {{name}}(input, [options])
 
 #### input
 
@@ -42,4 +42,4 @@ Lorem ipsum.
 
 ## License
 
-MIT © [<%= name %>](https://github.com/<%= githubUsername %>)
+MIT © [{{name}}](https://github.com/{{author}}/{{name}})

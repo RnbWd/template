@@ -1,9 +1,9 @@
 {
-  "name": "<%= moduleName %>",
+  "name": "{{name}}",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "repository": "{{author}}/{{name}}",
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>",
