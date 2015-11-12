@@ -42,4 +42,4 @@ Lorem ipsum.
 
 ## License
 
-MIT © [{{name}}](https://github.com/{{author}}/{{name}})
+MIT © [{{author}}](https://github.com/{{author}}/{{name}})

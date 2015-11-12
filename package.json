@@ -5,9 +5,9 @@
   "license": "MIT",
   "repository": "{{author}}/{{name}}",
   "author": {
-    "name": "<%= name %>",
-    "email": "<%= email %>",
-    "url": "<%= website %>"
+    "name": "({{author}}",
+    "email": "({{email}}",
+    "url": "({{website}}"
   },
   "engines": {
     "node": ">=0.10.0"
